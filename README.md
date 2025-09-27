@@ -18,6 +18,6 @@ A minimalist rectangle-style crosshair replacement for Elder Scrolls Online. Thi
 
   - Dead/Stunned/Disguised: Black or transparent variants
 
-- Automatically hides in mouse mode and shows in gamepad mode
+- Automatically hides
 
 - Lightweight and performance-friendly with no external dependencies
