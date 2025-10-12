@@ -1,7 +1,7 @@
 ## Title: |c997F3DSigil of Aim: |cF9F2FFRectangle|r
-## APIVersion: 101047
+## APIVersion: 101047 101048
 ## Author: |cEBD03CVollständigerName|r
-## Version: 1.0.0
+## Version: 1.0.1
 ## SavedVariables: SigilOfAimRectangleSV
 ## OptionalDependsOn: 
 ## Description: Custom Rectangle-style crosshair reticle replacement

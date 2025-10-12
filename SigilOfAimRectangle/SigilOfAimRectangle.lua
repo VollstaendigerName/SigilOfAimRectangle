@@ -4,7 +4,7 @@
 --[[
     AddOn Name:         SigilOfAimRectangle
     Description:        Custom dot-style crosshair reticle replacement
-    Version:            1.0.0
+    Version:            1.0.1
     Author:             VollständigerName
     Dependencies:       None
 --]]
@@ -100,9 +100,10 @@ function SigilOfAimRectangleUpdate()
     
     -- Check if player is in mouse mode
     local inMouseMode = IsGameCameraUIModeActive()
+    local inSiegeWeapon = IsPlayerControllingSiegeWeapon()
+        
     if reticleControl then
-        -- Hide custom crosshair in mouse mode
-        reticleControl:SetHidden(inMouseMode)
+        reticleControl:SetHidden(inMouseMode or inSiegeWeapon)
     end
     
     -- Get various game state information for visual feedback
